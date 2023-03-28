@@ -9,6 +9,8 @@ Solution
     We can start from every index of the given array and add the next ‘k’ elements
     to find the subarray’s sum.
 
+Time Complexity
+    O(N∗K).
 */
 class MaxSumSubArrayOfSizeK {
     public static int findMaxSumSubArray(int k, int[] arr) {
@@ -48,6 +50,13 @@ A better approach
 
     This approach will save us from re-calculating the sum of the overlapping
     part of the sliding window. Here is what our algorithm will look like:
+
+Time Complexity
+    The time complexity of the above algorithm will be O(N)O(N).
+
+Space Complexity
+    The algorithm runs in constant space O(1)O(1).
+
  */
 
 class MaxSumSubArrayOfSizeK {
