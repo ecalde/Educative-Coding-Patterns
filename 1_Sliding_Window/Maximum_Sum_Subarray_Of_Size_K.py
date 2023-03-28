@@ -1,4 +1,4 @@
-/*
+"""
 Problem Statement
     Given an array of positive numbers and a positive number ‘k,’
     find the maximum sum of any contiguous subarray of size ‘k’.
@@ -9,7 +9,7 @@ Solution
     to find the subarray’s sum.
 Time Complexity
     O(N∗K).
-*/
+"""
 def max_sub_array_of_size_k(k, arr):
   max_sum = 0
   window_sum = 0
@@ -29,7 +29,7 @@ def main():
 
 main()
 
-/*
+"""
 A better approach
     If you observe closely, you will realize that to calculate the sum of
     a contiguous subarray, we can utilize the sum of the previous subarray.
@@ -47,7 +47,7 @@ Time Complexity
     The time complexity of the above algorithm will be O(N)O(N).
 Space Complexity
     The algorithm runs in constant space O(1)O(1).
- */
+"""
 
 def max_sub_array_of_size_k(k, arr):
   max_sum , window_sum = 0, 0
