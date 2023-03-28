@@ -56,7 +56,6 @@ class MinSizeSubArraySum {
         System.out.println("Smallest subarray length: " + result);
     }
 }
-
 /*
 Time Complexity
     The time complexity of the above algorithm will be O(N)O(N). The outer for loop runs for all elements, and the
